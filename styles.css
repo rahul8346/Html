@@ -1,3 +1,50 @@
-body {
-  background: orange;
+.nav {
+  height: 30px;
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 10px 5px 5px 10px;
+  margin: 5px;
+  border-radius: 3px;
+  border-spacing: 3px;
+}
+
+.nav > a {
+  border-bottom: 2px solid #ff9933;
+  font-size: 20px;
+  padding: 2px;
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav > a:hover,
+a:active {
+  background-color: gray;
+  border-bottom: 2px solid #ffffff;
+  border-radius: 3px;
+}
+
+.brand {
+  background-color: #ff9933;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+iframe {
+  width: 98%;
+  height: 90%;
+  margin: 5px;
+  border: 0.3ch solid gray;
+  border-radius: 3px;
 }
